@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
 export const Cores = {
   branca: '#eee',
@@ -21,10 +21,11 @@ export const GlobalCss = createGlobalStyle`
     color: ${Cores.branca};
     padding-top: 40px;
   }
-`
 
-export const Container = styled.div`
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+
+  }
 `
