@@ -1,12 +1,14 @@
 import React from 'react'
-import logo from './logo.svg'
-import { GlobalCss } from './styles'
+import { Container, GlobalCss } from './styles'
+import Header from './components/Header'
 
 function App() {
   return (
     <>
       <GlobalCss />
-      <div>ola mundo</div>
+      <Container>
+        <Header />
+      </Container>
     </>
   )
 }
