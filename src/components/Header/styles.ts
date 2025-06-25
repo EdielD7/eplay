@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { cores } from '../../styles'
 
 export const HeaderBar = styled.div`
-  background-color: ${Cores.cinza};
+  background-color: ${cores.cinza};
   padding: 24px;
   font-size: 16px;
   margin-bottom: 80px;
@@ -11,7 +11,7 @@ export const HeaderBar = styled.div`
   justify-content: space-between;
 
   a {
-    color: ${Cores.branca};
+    color: ${cores.branca};
     text-decoration: none;
     font-weight: bold;
   }
